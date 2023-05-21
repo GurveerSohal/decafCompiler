@@ -1,0 +1,3 @@
+grammar Decaf;
+
+file: .* ?EOF;
