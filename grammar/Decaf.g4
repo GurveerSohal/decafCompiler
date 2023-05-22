@@ -1,3 +1,6 @@
-grammar Decaf;
+parser grammar Decaf;
 
-file: .* ?EOF;
+options {
+	tokenVocab = DecafLexer;
+}
+file: HELLO EOF;
