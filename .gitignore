@@ -1,0 +1,4 @@
+build/
+.vscode/
+antlr_generated/
+.clang-format
